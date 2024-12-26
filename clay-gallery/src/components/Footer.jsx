@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="text-primary bg-white duration-300 transform transition-all flex flex-col md:flex-row  md:justify-between items-center md:items-baseline  text-xl py-14 sm:px-16 border-b">
+      <div className=" text-primary bg-gray duration-300 transform transition-all flex flex-col md:flex-row  md:justify-between items-center md:items-baseline  text-xl py-14 sm:px-16 border-b border-secondary/30">
         {/* Footer Content */}
         <div className="mb-8">
           <h1 className="font-semibold">ClayGallery</h1>
@@ -73,7 +73,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col bg-white  sm:flex-row gap-4 items-center sm:items-baseline sm:justify-between px-16 text-secondary py-8">
+      <div className="flex flex-col bg-gray  sm:flex-row gap-4 items-center sm:items-baseline sm:justify-between px-16 text-secondary py-8">
         <h2>Copyright © 2024</h2>
         <h2>All rights reserved</h2>
       </div>

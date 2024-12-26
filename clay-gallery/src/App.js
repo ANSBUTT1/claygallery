@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Shop from './pages/Shop';
 import Contact from './pages/Contact';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton/>
     </Router>
   );
 }
