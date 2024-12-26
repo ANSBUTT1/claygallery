@@ -1,9 +1,12 @@
 import React from 'react'
+import ShopCatogery from '../components/ShopCatogery'
+import ScrollToTop from '../components/ScrollToTop'
 
 const Shop = () => {
   return (
     <div>
-      <h1>Hello its a shop page</h1>
+      <ScrollToTop/>
+     <ShopCatogery/>
     </div>
   )
 }
