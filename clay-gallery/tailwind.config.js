@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#025048", // Custom color for #025048
+        primary:'var(--primary-color)' , // Custom color for #025048
         secondary: "#424b4a", // Custom color for #424b4a
         white: "#ffffff",
         gray: "#ededed", // White color (although 'white' is default in Tailwind)
@@ -13,3 +13,6 @@ module.exports = {
   },
   plugins: [],
 };
+
+
+// "#025048"
