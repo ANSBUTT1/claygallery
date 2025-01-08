@@ -1,0 +1,33 @@
+/* Slide-in animation */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); /* Start from left */
+    }
+    100% {
+      transform: translateX(0); /* End at its normal position */
+    }
+  }
+  
+  /* Pulse animation */
+  @keyframes pulseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Slightly increase size */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply slide-in animation */
+  .slide-in-from-left {
+    animation: slideInFromLeft 0.7s ease-out forwards;
+  }
+  
+  /* Apply pulse animation */
+  .pulse-animation {
+    animation: pulseAnimation 1.5s infinite ease-in-out; /* Infinite pulse effect */
+  }
+  
